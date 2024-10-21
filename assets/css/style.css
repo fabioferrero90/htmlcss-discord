@@ -194,15 +194,19 @@ nav a {
     background-size: cover;
     background-position: center;
     color:white;
+    padding:5% 3%;
 }
 
 #hero ~ * {
     align-items:center;
 }
 
+#hero .hero-text {
+    padding:3% 5% 2%;
+}
+
 #hero .hero-buttons {
     gap:20px;
-    margin-bottom: 170px;
 }
 
 #hero h1 {
@@ -265,11 +269,6 @@ nav a {
 /* Specific styling */
 .navbar ul a {
     padding:0 10px;
-}
-
-.hero-text {
-    margin:5% 5% 0;
-    padding:3% 5% 2%;
 }
 
 .hero-buttons {
