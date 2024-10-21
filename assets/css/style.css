@@ -216,6 +216,7 @@ nav a {
 }
 
 .cta-container {
+    padding-top:30px;
     flex-direction:column;
     justify-content: center;
     align-content: center;
