@@ -4,6 +4,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Discord - Group Chat That’s All Fun & Games - Boolean - Esercizio#7 - #classe 137</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
     <!-- Font Awesome  -->
     <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css' integrity='sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==' crossorigin='anonymous'/>
     <link rel="stylesheet" href="assets/css/style.css">
@@ -13,42 +18,52 @@
     <header>
         <div class="container navbar debug">
             <div class="row debug">
-                <div class="col logo debug"><img src="#" alt=""></div>
+                <div class="col logo debug"><img src="/assets/img/content/logo.svg" alt=""></div>
                 <div class="col debug">
                     <nav>
                         <ul>
-                            <li><a href="">BUTTON</a></li>
-                            <li><a href="">BUTTON</a></li>
-                            <li><a href="">BUTTON</a></li>
-                            <li><a href="">BUTTON</a></li>
+                            <li><a href="#">Scarica</a></li>
+                            <li><a href="#">Perchè Discord</a></li>
+                            <li><a href="#">Nitro</a></li>
+                            <li><a href="#">Sicurezza</a></li>
+                            <li><a href="#">Assistenza</a></li>
                         </ul>
                     </nav>
                 </div>
-                <div class="col cta debug">LOGIN</div>
+                <div class="col debug">
+                    <a href="#" class="btn-style bg-white">Accedi</a>
+                </div>
             </div>
         </div>
     </header>
 
     <main>
+
+        <!-- Hero Section  -->
         <section id="hero" class="hero d_flex debug">
             <div class="hero-text container debug">
-                <h1>TITOLO</h1>
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Obcaecati magni nisi nulla illum eum eligendi facilis sapiente pariatur ex reprehenderit ullam corrupti itaque repellat, asperiores assumenda possimus ab culpa impedit.</p>
+                <h1>Il tuo posto per parlare</h1>
+                <p>Che tu faccia parte di un club scolastico, gruppo di gamer, comunità artistica mondiale, o semplicemente di un piccolo gruppo di amici che vuole passare il tempo assieme, Discord rende più facile chiacchierare ogni giorno e ritrovarsi più spesso.</p>
             </div>
             <div class="hero-buttons container d_flex debug">
-                <a href="#">Action 1</a>
-                <a href="#">Action 2</a>
+                <a href="#" class="btn-style-icon bg-white">
+                    <i class="fas fa-arrow-down"></i>Scarica per Mac
+                </a>
+                <a href="#" class="btn-style bg-black">Apri Discord nel tuo browser</a>
             </div>
         </section>
+        <!-- /Hero Section  -->
+
+        <!-- Page Content  -->
         <section id="page-content">
             <div class="block">
                 <div class="container col2_60-40 d_flex debug">
                     <div class="col debug">
-                        <img src="#" alt="Image">
+                        <img src="/assets/img/content/item1.svg" alt="text-channels">
                     </div>
                     <div class="col text_content debug">
-                        <h3>TITOLO</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi fugit neque, omnis iste doloribus sint odit aspernatur. Nesciunt, esse!</p>
+                        <h3>Un luogo a invito con tutto lo spazio necessario per parlare</h3>
+                        <p>I server Discord sono organizzati in canali tematici in cui puoi collaborare, condividere o semplicemente parlare della tua giornata senza intasare una chat di gruppo.</p>
                     </div>
                 </div>
             </div>
@@ -57,11 +72,11 @@
             <div class="block bg-gray">
                 <div class="container col2_40-60 d_flex debug">
                     <div class="col text_content debug">
-                        <h3>TITOLO</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi fugit neque, omnis iste doloribus sint odit aspernatur. Nesciunt, esse!</p>
+                        <h3>Dove trovarsi è facile</h3>
+                        <p>Mettiti comodo in un canale vocale quando hai tempo. Gli amici nel tuo server possono vedere che sei li e unirsi istantaneamente senza dover chiamare.</p>
                     </div>
                     <div class="col debug">
-                        <img src="#" alt="Image">
+                        <img src="assets/img/content/item2.svg" alt="Voice Channels">
                     </div>
                 </div>
             </div>
@@ -70,33 +85,35 @@
             <div class="block">
                 <div class="container col2_60-40 d_flex debug">
                     <div class="col debug">
-                        <img src="#" alt="Image">
+                        <img src="assets/img/content/item3.svg" alt="Categories">
                     </div>
                     <div class="col text_content debug">
-                        <h3>TITOLO</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti commodi fugit neque, omnis iste doloribus sint odit aspernatur. Nesciunt, esse!</p>
+                        <h3>Da pochi a Fandom</h3>
+                        <p>Dai inizio a una community di qualsiasi dimensione con strumenti di moderazione e accesso ai membri personalizzabile. Concedi ai membri poteri speciali, crea canali privati, e molto altro</p>
                     </div>
                 </div>
             </div>
 
             <div class="wave-container-top"></div>
-            <div class="block bg-gray">
-                <div class="container boxed-content d_flex block debug">
+            <div class="block centered bg-gray">
+                <div class="container block debug">
                     <div class="text debug">
-                        <h3>TITOLO</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque, obcaecati animi amet a quaerat reiciendis facere fugiat, nesciunt quos delectus ipsa architecto. Nobis, totam natus!</p>
+                        <h3>Tecnologia affidabile per tenersi in contatto</h3>
+                        <p>Video e audio a bassa latenza ti faranno sentire come se foste tutti nella stessa stanza. Fai ciao in video, guarda gli amici giocare in streaming, o riunitevi in una sessione di disegno con la condivisione schermo.</p>
                     </div>
                     <div class="img-content debug">
-                        <img src="#" alt="#">
+                        <img src="assets/img/content/item4-big.svg" alt="Calls">
                     </div>
-                    <div id="cta" class="debug">
-                        <h3>Call to action</h3>
-                        <a href="#">Click Me</a>
+                    <div class="debug">
+                        <h4>Pronto a iniziare la tua avventura?</h4>
+                        <a href="#" class="broken-button btn-style-icon bg-blue">
+                            <i class="fas fa-arrow-down"></i>Scarica per Mac
+                        </a>
                     </div>
                 </div>
             </div>
-
         </section>
+        <!-- /Page Content  -->
 
     </main>
 
@@ -108,71 +125,73 @@
             <div class="container top-footer debug">
                 <div class="col2_30-70 d_flex debug">
                     <div class="col debug">
-                        <h5>TITOLO</h5>
+                        <h5>Il tuo posto per parlare</h5>
                         <select name="lang-selector" id="lang-selector">
-                            <option value="it">Italiano</option>
+                            <option value="it"><i class="flag flag-italy"></i>Italiano</option>
                             <option value="it">English</option>
                             <option value="it">Spanish</option>
                         </select>
                         <div class="social-bar 4col_equal d_flex debug">
-                            <a href="#"><img src="#" alt=""></a>
-                            <a href="#"><img src="#" alt=""></a>
-                            <a href="#"><img src="#" alt=""></a>
-                            <a href="#"><img src="#" alt=""></a>
+                            
+                            <a href="https://twitter.com"><i class="fab fa-twitter"></i></a>
+                            <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                            <a href="https://facebook.com"><i class="fab fa-facebook"></i></a>
+                            <a href="https://youtube.com"><i class="fab fa-youtube"></i></a>
                         </div>
                     </div>
                     <div class="col debug">
                         <div class="col4_equal d_flex debug">
                             <div class="col debug">
-                                <span>NAV TITLE</span>
+                                <span class="section-title">Prodotto</span>
                                 <nav>
                                     <ul>
-                                        <li><a href="#">OPTION1</a></li>
-                                        <li><a href="#">OPTION2</a></li>
-                                        <li><a href="#">OPTION3</a></li>
-                                        <li><a href="#">OPTION4</a></li>
-                                        <li><a href="#">OPTION5</a></li>
+                                        <li><a href="#">Scarica</a></li>
+                                        <li><a href="#">Perchè Discord?</a></li>
+                                        <li><a href="#">Nitro</a></li>
+                                        <li><a href="#">Sicurezza</a></li>
+                                        <li><a href="#">Assistenza</a></li>
                                     </ul>
                                 </nav>
                             </div>
                             <div class="col debug">
-                                <span>NAV TITLE</span>
+                                <span class="section-title">Compagnia</span>
                                 <nav>
                                     <ul>
-                                        <li><a href="#">OPTION1</a></li>
-                                        <li><a href="#">OPTION2</a></li>
-                                        <li><a href="#">OPTION3</a></li>
-                                        <li><a href="#">OPTION4</a></li>
-                                        <li><a href="#">OPTION5</a></li>
+                                        <li><a href="#">Chi siamo</a></li>
+                                        <li><a href="#">Lavora con noi</a></li>
+                                        <li><a href="#">Marchio</a></li>
+                                        <li><a href="#">Redazione</a></li>
+                                        <li><a href="#">Negozio</a></li>
                                     </ul>
                                 </nav>
                             </div>
                             <div class="col debug">
-                                <span>NAV TITLE</span>
+                                <span class="section-title">Risorse</span>
                                 <nav>
                                     <ul>
-                                        <li><a href="#">OPTION1</a></li>
-                                        <li><a href="#">OPTION2</a></li>
-                                        <li><a href="#">OPTION3</a></li>
-                                        <li><a href="#">OPTION4</a></li>
-                                        <li><a href="#">OPTION5</a></li>
-                                        <li><a href="#">OPTION6</a></li>
-                                        <li><a href="#">OPTION7</a></li>
-                                        <li><a href="#">OPTION8</a></li>
-                                        <li><a href="#">OPTION9</a></li>
-                                        <li><a href="#">OPTION10</a></li>
+                                        <li><a href="#">Scarica</a></li>
+                                        <li><a href="#">Perchè Discord</a></li>
+                                        <li><a href="#">Nitro</a></li>
+                                        <li><a href="#">Sicurezza</a></li>
+                                        <li><a href="#">Assistenza</a></li>
+                                        <li><a href="#">Scarica</a></li>
+                                        <li><a href="#">Perchè Discord</a></li>
+                                        <li><a href="#">Nitro</a></li>
+                                        <li><a href="#">Sicurezza</a></li>
+                                        <li><a href="#">Assistenza</a></li>
+                                        <li><a href="#">Assistenza</a></li>
                                     </ul>
                                 </nav>
                             </div>
                             <div class="col debug">
-                                <span>NAV TITLE</span>
+                                <span class="section-title">Norme</span>
                                 <nav>
                                     <ul>
-                                        <li><a href="#">OPTION1</a></li>
-                                        <li><a href="#">OPTION2</a></li>
-                                        <li><a href="#">OPTION3</a></li>
-                                        <li><a href="#">OPTION4</a></li>
-                                        <li><a href="#">OPTION5</a></li>
+                                        <li><a href="#">Scarica</a></li>
+                                        <li><a href="#">Perchè Discord</a></li>
+                                        <li><a href="#">Nitro</a></li>
+                                        <li><a href="#">Sicurezza</a></li>
+                                        <li><a href="#">Assistenza</a></li>
                                     </ul>
                                 </nav>
                             </div>
@@ -184,8 +203,8 @@
 
             <!-- Bottom Footer  -->
              <div class="container bottom-footer d_flex debug">
-                <img src="#" alt="">
-                <a href="#" class="debug">Register</a>
+                <img src="assets/img/content/logo.svg" alt="">
+                <a href="#" class="btn-style bg-blue debug">Registrati</a>
              </div>
             <!-- Bottom Footer  -->
     
